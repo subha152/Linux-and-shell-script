@@ -1,0 +1,14 @@
+ps -ef # details of all the process which is running 
+ps -ef | grep "amazon" # details of all amazon related process which is running
+
+
+#import 
+date | echo "today date is :"
+
+#output
+today date is 
+btz date is default command
+
+#import
+ps -ef | grep "Amazon" | awk -F" " '{print $2}'
+ps -ef | grep "Amazon" | awk -F" " '{print $1}'
