@@ -12,3 +12,5 @@ btz date is default command
 #import
 ps -ef | grep "Amazon" | awk -F" " '{print $2}'
 ps -ef | grep "Amazon" | awk -F" " '{print $1}'
+
+grep "error" test.txt
