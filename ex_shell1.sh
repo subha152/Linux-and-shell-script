@@ -10,8 +10,10 @@
 # Version: v1
 ####################################################
 
-df -h
+set -x # this is use for debug mode
 
-free -g
+df -h  # this command is use for Print the disk space
 
-nproc
+free -g  # this command is use for Print the memory
+
+nproc # this command is use for Print CPU
