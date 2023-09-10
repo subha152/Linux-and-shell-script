@@ -14,3 +14,9 @@ ps -ef | grep "Amazon" | awk -F" " '{print $2}'
 ps -ef | grep "Amazon" | awk -F" " '{print $1}'
 
 grep "error" test.txt
+
+curl https://www.ibm.com/docs/en/zos/2.4.0?topic=problems-example-log-file # showing the file details
+
+wget https://www.ibm.com/docs/en/zos/2.4.0?topic=problems-example-log-file # download the file
+
+find
