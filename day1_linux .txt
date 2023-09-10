@@ -1,0 +1,92 @@
+  259  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  260  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  261  sudo apt-get update
+  262  sudo apt-get install jenkins
+  263  sudo apt update
+  264  cd ../..
+  265  cd ..
+  266  sudo apt install openjdk-17-jre
+  267  clear
+  268  java -version
+  269  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key |sudo gpg --dearmor -o /usr/share/keyrings/jenkins.gpg
+  270  sudo sh -c 'echo deb [signed-by=/usr/share/keyrings/jenkins.gpg] http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  271  sudo apt update
+  272  sudo apt install jenkins
+  273  sudo systemctl start jenkins.service
+  274  sudo systemctl status jenkins
+  275  clear
+  276  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  277  clear
+  278  sudo apt install vim
+  279  clear
+  280  ls
+  281  touch shell1.sh
+  282  ls
+  283  vi shell1
+  284  pwd
+  285  cp -f shell1.sh /home/ubuntu/shell_script/
+  286  ls
+  287  rm shell.sh
+  288  rm -rf shell.sh
+  289  ls
+  290  clear
+  291  ls
+  292  rm -f shell1.sh
+  293  ls
+  294  cd shell_script/
+  295  ls
+  296  vi shell1.sh 
+  297  sh shell1.sh 
+  298  chmod shell.sh
+  299  ls -ltr
+  300  vi shee
+  301  ls
+  302  clear
+  303  ls
+  304  vi shell1.sh 
+  305  ls -ltr
+  306  chmod ugo-rwx shell1.sh 
+  307  ls -ltr
+  308  sh shell1.sh 
+  309  chmod ugo+rwx shell1.sh 
+  310  ls
+  311  ls -ltr
+  312  sh shell1.sh 
+  313  chmod 000 shell1.sh 
+  314  ls -ltr
+  315  clear
+  316  ls -ltr
+  317  chmod 777 shell1.sh 
+  318  ls -ltr
+  319  chmod 444 shell1.sh 
+  320  ls -ltr
+  321  chmod 700 shell1.sh 
+  322  ls -ltr
+  323  chmod 761 shell1.sh 
+  324  ls -ltr
+  325  chmod 741 shell1.sh 
+  326  ls -ltr
+  327  clear
+  328  ls
+  329  vi shell1.sh 
+  330  vi shell2.sh
+  331  sh shell2.sh
+  332  ./shell2.sh
+  333  chmod 777 shell2.sh
+  334  ./shell2.sh
+  335  ls
+  336  cd subho
+  337  ls
+  338  cat 1.sh
+  339  mkdir subho
+  340  ls
+  341  cd ..
+  342  mkdir subho
+  343  mkdir -rf subho
+  344  mkdir -f subho
+  345  clear
+  346  ls
+  347  free
+  348  nproc
+  349  top
+  350  history
